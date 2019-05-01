@@ -1,0 +1,22 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _Rent = require('./build/Rent.json');
+
+var _Rent2 = _interopRequireDefault(_Rent);
+
+var _web = require('./web3');
+
+var _web2 = _interopRequireDefault(_web);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// import compiled Rent Contract
+exports.default = function (contractAddress) {
+  return new _web2.default.eth.Contract(JSON.parse(_Rent2.default.interface), contractAddress);
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiY29udHJhY3RBZGRyZXNzIiwiZXRoIiwiQ29udHJhY3QiLCJKU09OIiwicGFyc2UiLCJpbnRlcmZhY2UiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUNBOzs7O0FBQ0E7Ozs7OztBQUZBO2tCQUlnQixVQUFVQSxlQUFWLEVBQTJCO0FBQ3pDLFNBQU8sSUFBSSxjQUFLQyxHQUFMLENBQVNDLFFBQWIsQ0FBc0JDLEtBQUtDLEtBQUwsQ0FBVyxlQUFhQyxTQUF4QixDQUF0QixFQUEwREwsZUFBMUQsQ0FBUDtBQUNELEMiLCJmaWxlIjoidW5rbm93biIsInNvdXJjZXNDb250ZW50IjpbIi8vIGltcG9ydCBjb21waWxlZCBSZW50IENvbnRyYWN0XG5pbXBvcnQgUmVudENvbnRyYWN0IGZyb20gJy4vYnVpbGQvUmVudC5qc29uJztcbmltcG9ydCB3ZWIzIGZyb20gJy4vd2ViMyc7XG5cbmV4cG9ydCBkZWZhdWx0IChmdW5jdGlvbiAoY29udHJhY3RBZGRyZXNzKSB7XG4gIHJldHVybiBuZXcgd2ViMy5ldGguQ29udHJhY3QoSlNPTi5wYXJzZShSZW50Q29udHJhY3QuaW50ZXJmYWNlKSwgY29udHJhY3RBZGRyZXNzKTtcbn0pOyJdfQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVua25vd24iXSwibmFtZXMiOlsiY29udHJhY3RBZGRyZXNzIiwiZXRoIiwiQ29udHJhY3QiLCJKU09OIiwicGFyc2UiLCJpbnRlcmZhY2UiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUNBOzs7O0FBQ0E7Ozs7OztBQUZBO2tCQUlnQixVQUFVQSxlQUFWLEVBQTJCO0FBQ3pDLFNBQU8sSUFBSSxjQUFLQyxHQUFMLENBQVNDLFFBQWIsQ0FBc0JDLEtBQUtDLEtBQUwsQ0FBVyxlQUFhQyxTQUF4QixDQUF0QixFQUEwREwsZUFBMUQsQ0FBUDtBQUNELEMiLCJmaWxlIjoidW5rbm93biJ9
